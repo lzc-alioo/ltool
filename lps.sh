@@ -3,5 +3,5 @@
 
 alias lps="ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,lstart,etime,command --sort=%cpu |grep java"
 
-lps
 
+ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,lstart,etime,command --sort=%cpu |grep java
